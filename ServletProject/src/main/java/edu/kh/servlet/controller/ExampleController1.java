@@ -104,21 +104,21 @@ public class ExampleController1 extends HttpServlet{
 
 		sb.append("<!DOCTYPE html>");
 		sb.append("<html>");
+		
 		sb.append("<head>");
 		sb.append("<title>서버 응답 페이지</title>");
 		sb.append("<head>");
+		
 		sb.append("<body>");
+		
 		sb.append("<h1>응답 페이지 입니다</h1>");
 		sb.append("<ul>");
 		sb.append("<li>입력받은 이름 : " + name +"</li>");
 		sb.append("<li>입력받은 나이 : " + age +"</li>");
-		sb.append("");
-		sb.append("");
-		sb.append("");
-		sb.append("");
-		sb.append("");
 		sb.append("</ul");
+		
 		sb.append("</body>");
+		
 		sb.append("</html>");
 
 		// 응답처리 4 : 출력 스트림을 이용해
